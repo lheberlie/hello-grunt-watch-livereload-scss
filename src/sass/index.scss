@@ -1,0 +1,22 @@
+
+
+@function px2em($pixels: 1px) {
+    @return $pixels * (1em / 16px);
+}
+
+$ui-border-color: #555555;
+
+$border-in-pixels: 5px;
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.firstDiv {
+  margin: px2em(5px);
+  width: px2em(380px);
+  height: px2em(300px);
+  background-color: rgba(209, 44, 188, 0.76);
+  border: px2em($border-in-pixels) $ui-border-color solid;
+}
