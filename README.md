@@ -81,15 +81,21 @@ npm install
 
 Open:
 
-```hello-grunt-watch-livereload-scss/build/index.html```
+```
+hello-grunt-watch-livereload-scss/build/index.html
+```
 
 Before:
 
-```<script src="//heb.esri.com:35729/livereload.js"></script>```
+```
+<script src="//heb.esri.com:35729/livereload.js"></script>
+```
 
 After:
 
-```<script src="//yourWebServer:35729/livereload.js"></script>```
+```
+<script src="//yourWebServer:35729/livereload.js"></script>
+```
 
 #### Compile the scss file using the ```watch``` task
 
