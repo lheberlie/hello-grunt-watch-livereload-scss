@@ -149,7 +149,9 @@ http://heb.esri.com/hello-grunt-watch-livereload-scss/build/
 
 Open ```index.scss```:
 
-```hello-grunt-watch-livereload-scss/src/sass/index.scss```
+```
+hello-grunt-watch-livereload-scss/src/sass/index.scss
+```
 
 Modify the value of ```$border-in-pixels```:
 
